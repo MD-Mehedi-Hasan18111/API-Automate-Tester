@@ -21,7 +21,7 @@ module.exports = [
     headers: { "Content-Type": "application/json" },
     body: {
       email: "md@bursement.com",
-      password: "Mehedi1Hasan2@",
+      password: "Mehedi1Hasan1@",
     },
   },
   {
