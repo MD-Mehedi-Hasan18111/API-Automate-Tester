@@ -3,13 +3,14 @@ const fs = require("fs");
 const path = require("path");
 
 const filePath = path.join(__dirname, "product_data.json");
+const filePath2 = path.join(__dirname, "Test_Customer_Sales_Data.xlsx");
 
 const createSheetForm = new FormData();
 createSheetForm.append("sheet_data", fs.createReadStream(filePath));
 const createBoardForm = new FormData();
 createBoardForm.append("board_data", fs.createReadStream(filePath));
 const suggestuQuestionsForm = new FormData();
-suggestuQuestionsForm.append("file", fs.createReadStream(filePath));
+suggestuQuestionsForm.append("file", fs.createReadStream(filePath2));
 
 module.exports = [
   // Authentication APIs
