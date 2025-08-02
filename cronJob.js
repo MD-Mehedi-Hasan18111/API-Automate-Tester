@@ -201,7 +201,7 @@ const runApiTests = async () => {
 };
 
 module.exports = () => {
-  cron.schedule("* * * * *", async () => {
+  cron.schedule("0 */12 * * *", async () => {
     console.log("⏰ Running scheduled API tests...");
     await runApiTests();
   });
