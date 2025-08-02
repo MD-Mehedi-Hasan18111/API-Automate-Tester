@@ -15,6 +15,7 @@ const sendErrorEmail = async (subject, message) => {
   const mailOptions = {
     from: `"API Monitor" <${process.env.EMAIL_FROM}>`,
     to: process.env.EMAIL_TO,
+    cc: process.env.EMAIL_CC,
     subject,
     text: message,
   };
