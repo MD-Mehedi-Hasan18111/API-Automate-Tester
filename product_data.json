@@ -1,0 +1,54 @@
+[
+    {
+        "Product ID": 101,
+        "Product Name": "Laptop",
+        "Sales Info": {
+            "Sales Date": "2024-07-14",
+            "Units Sold": 3,
+            "Sale Price": 217.61,
+            "Revenue": 652.83
+        },
+        "Customer": {
+            "Name": "John Doe",
+            "Region": "North"
+        }
+    },
+    {
+        "Product ID": 103,
+        "Product Name": "Keyboard",
+        "Sales Info": {
+            "Sales Date": "2023-12-06",
+            "Units Sold": 11,
+            "Sale Price": 132.12,
+            "Revenue": 1453.32
+        },
+        "Customer": {
+            "Name": "Jane Smith",
+            "Region": "South"
+        }
+    },
+    {
+        "Product ID": 101,
+        "Product Name": "Laptop",
+        "Sales Info": {
+            "Sales Date": "2024-05-04",
+            "Units Sold": 19,
+            "Sale Price": 450.74,
+            "Revenue": 8564.06
+        },
+        "Customer": {
+            "Name": "Alice Johnson",
+            "Region": "South"
+        },
+        "Accessories": [
+            {
+                "Accessory Name": "Mouse",
+                "Price": 29.99
+            },
+            {
+                "Accessory Name": "Keyboard",
+                "Price": 49.99
+            }
+        ]
+    }
+]
